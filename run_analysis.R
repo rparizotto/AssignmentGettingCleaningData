@@ -12,7 +12,7 @@
 
 # path to 'UCI HAR Dataset' folder containg train data, test data and other files
 #path <- 'c:/poc/R_project/quiz_cleaning_week4/UCI HAR Dataset/'
-if(!exists('path')) {path <- getwd()}
+if(!exists('path')) {path <- getw}
 setwd(path)
 
 # load activities and features
@@ -76,5 +76,6 @@ names(join_df) <- n
 dfr <- join_df %>% group_by(Activity, Subject.ID) %>% summarise_each(vars = -Execution.Type, funs = funs(GroupMean ="mean"))
 
 # export data
+
 setwd(path)
-write.csv(dfr, file='tidy_data.csv')
+write.table(dfr, row.name=FALSE, file='tidy_data.txt')
