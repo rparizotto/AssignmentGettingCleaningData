@@ -10,11 +10,11 @@ This repository is part of the "Peer-graded Assignment: Getting and Cleaning Dat
 ### Code details
 
 This script is used to load Smartphones Dataset and generate tidy data.
-A full description is available at the site where the data was obtained:
+A full description of the original data is available at the site where the data was obtained:
 
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
-Here are the original data used for the project:
+Here are the original data used for the project as provided by assignement:
 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
