@@ -7,3 +7,12 @@ This repository is part of the "Peer-graded Assignment: Getting and Cleaning Dat
 3.  tidy_data.csv - output tidy data frame in csv format
 4.  codebook.txt - code book with variables in tidy_data.csv
 
+### Code details
+
+This script is used to load Smartphones Dataset and generate tidy data
+A full description is available at the site where the data was obtained:
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+Here are the original data used for the project:
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+It is assumed that the zip file is extracted and saved to a local 'UCI HAR Dataset' folder.
+The 'path' variable can be used to identify this folder
