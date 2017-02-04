@@ -11,7 +11,8 @@
 # 
 
 # path to 'UCI HAR Dataset' folder containg train data, test data and other files
-path <- 'c:/poc/R_project/quiz_cleaning_week4/UCI HAR Dataset/'
+#path <- 'c:/poc/R_project/quiz_cleaning_week4/UCI HAR Dataset/'
+if(!exists('path')) {path <- getwd()}
 setwd(path)
 
 # load activities and features
